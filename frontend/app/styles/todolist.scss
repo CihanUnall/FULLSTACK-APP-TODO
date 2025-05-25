@@ -1,0 +1,59 @@
+.todolist-container {
+  align-items: center;
+  padding: 10px;
+
+  margin: auto;
+  margin-bottom: 10rem;
+  li {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-bottom: 1.5rem;
+
+    p {
+      width: 90%;
+      padding-right: 1rem;
+      text-align: justify;
+      align-content: center;
+    }
+    .completed {
+      text-decoration: line-through;
+      color: #aaa;
+    }
+    button {
+      margin: 5px;
+      padding: 5px 10px;
+      background-color: #dd6dae;
+      color: rgb(255, 248, 248);
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      width: 6rem;
+      height: 2rem;
+
+      &:hover {
+        background-color: #0056b3;
+      }
+    }
+    .edit-todo {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      textarea {
+        width: 90%;
+        height: 8rem;
+
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+    }
+  }
+}
+.not {
+  text-align: left;
+  font-size: 1.5rem;
+  color: #888;
+  margin: 2rem;
+}

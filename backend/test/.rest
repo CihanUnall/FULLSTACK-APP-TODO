@@ -1,0 +1,24 @@
+### Tüm görevleri getir
+GET http://localhost:5500/todos
+
+### Yeni görev ekle
+POST http://localhost:5500/todos
+Content-Type: application/json
+
+{
+  "text": "Task new"
+}
+
+### Görev güncelle
+PUT http://localhost:5500/todos/2
+Content-Type: application/json
+
+{
+  "done": false
+}
+
+### Görev sil
+DELETE http://localhost:5500/todos/2
+
+### Tüm görevleri getir
+GET http://localhost:5500/users

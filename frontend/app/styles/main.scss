@@ -1,0 +1,24 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 3rem auto;
+  width: 30rem;
+  height: 35rem;
+  background: linear-gradient(180deg, #e2ba8c 0%, #ffffff84 100%);
+  border-radius: 5px;
+
+  box-shadow: -2px 5px 8px 5px rgba(0, 0, 0, 0.1);
+
+  h1,
+  p {
+    font-size: 1.4rem;
+    color: rgb(99, 100, 104);
+    margin-bottom: 2rem;
+  }
+}
+
+.main-container:hover {
+  box-shadow: -2px 5px 8px 5px rgba(0, 0, 0, 0.3);
+}
